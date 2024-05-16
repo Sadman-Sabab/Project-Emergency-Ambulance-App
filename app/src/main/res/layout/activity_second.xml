@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1C017"
+    tools:context=".Second">
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/heading_1_of_second_activity"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:text="@string/heading_2_of_second_activity" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="164dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver1"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_1" />
+
+            <TextView
+                android:id="@+id/tt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver2"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_2" />
+
+            <TextView
+                android:id="@+id/tt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_3" />
+
+            <TextView
+                android:id="@+id/tt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver4"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_4" />
+
+            <TextView
+                android:id="@+id/tt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver5"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_5" />
+
+            <TextView
+                android:id="@+id/tt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver6"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_6" />
+
+            <TextView
+                android:id="@+id/tt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver7"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_7" />
+
+            <TextView
+                android:id="@+id/tt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver8"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_8" />
+
+            <TextView
+                android:id="@+id/tt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver9"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_9" />
+
+            <TextView
+                android:id="@+id/tt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver10"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_10" />
+
+            <TextView
+                android:id="@+id/tt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Driver11"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="makeAcall"
+                android:text="@string/Num_of_driver_11" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

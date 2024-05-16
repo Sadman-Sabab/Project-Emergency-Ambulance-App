@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Emergency Ambulance</string>
+    <string name="s_1">Emergency Ambulance Application</string>
+    <string name="s_2">24/7 Ambulance Service</string>
+    <string name="s_3">Tap the button</string>
+    <string name="bt1">Book An Ambulance</string>
+    <string name="bt2">Non-AC</string>
+    <string name="bt3">Cardiac</string>
+    <string name="bt4">Freezzing</string>
+    <string name="i1">Ambulance Image</string>
+
+
+
+    /driver list/
+
+    <string name="heading_1_of_second_activity">Drivers name and their numbers</string>
+    <string name = "heading_2_of_second_activity">(tap the number to call)</string>
+
+    <string name="Driver1">Sadman Sabab</string>
+    <string name="Num_of_driver_1">01704318344</string>
+
+    <string name="Driver2">Abdullah Al Rafi</string>
+    <string name="Num_of_driver_2">01930423211</string>
+
+    <string name="Driver3">Fahim Shahriar</string>
+    <string name="Num_of_driver_3">01755301726</string>
+
+    <string name="Driver4">Shafayat Tazoar</string>
+    <string name="Num_of_driver_4">01799313189</string>
+
+    <string name="Driver5">Sajid Fardin Dipto</string>
+    <string name="Num_of_driver_5">01309312464</string>
+
+    <string name="Driver6">Lutfor Rahman Rifat</string>
+    <string name="Num_of_driver_6">01728776775</string>
+
+    <string name="Driver7">Hasan Al Muazzaz</string>
+    <string name="Num_of_driver_7">01993419267</string>
+
+    <string name="Driver8">Shuvo Kundu</string>
+    <string name="Num_of_driver_8">01792309155</string>
+
+    <string name="Driver9">Md.Alif</string>
+    <string name="Num_of_driver_9">01795035920</string>
+
+    <string name="Driver10">Arnab Saha Swachha</string>
+    <string name="Num_of_driver_10">01867983059</string>
+
+    <string name="Driver11">Imtiaz Raihan Rifat</string>
+    <string name="Num_of_driver_11">01761898430</string>
+
+</resources>
